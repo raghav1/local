@@ -58,6 +58,7 @@ public class ProcessMain {
 			.knowledgeBase(kbase);
 		return RuntimeManagerFactory.Factory.get()
 			.newSingletonRuntimeManager(builder.get(), "com.sample:example:1.0");
+		
 	}
 
 }
